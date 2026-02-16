@@ -73,13 +73,14 @@ body {
     flex: 1;
     max-width: 600px;
     align-content: center;
-    margin: 10px;
+    margin: 10px auto;
     order: 1;
 }
 
 .hero-img {
     flex: 1;
     max-width: 400px;
+    margin: auto;
     border-radius: 10px;
     order: 2;
 }
@@ -133,24 +134,27 @@ body {
 
 .skills {
     display: flex;
-    padding: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 /*Proyectos*/
 
 .projects {
     padding: 40px 20px 20px;
+    margin: auto;
 }
 
 .projects h2 {
+    text-align: center;
     margin: 0 0 18px;
     font-size: 28px;
 }
 
 .project-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
 .project-item {
