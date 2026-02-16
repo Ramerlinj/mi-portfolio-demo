@@ -155,6 +155,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .project-item {
@@ -162,6 +163,7 @@ body {
     border: 1px solid var(--border-dark);
     border-radius: 12px;
     padding: 16px;
+    width: 280px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -190,4 +192,20 @@ body {
     margin: 0;
     color: var(--text-muted);
     line-height: 1.5;
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 12px;
+    color: var(--text-light);
+    background-color: var(--primary);
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: var(--primary-hover);
 }
