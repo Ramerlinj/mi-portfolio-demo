@@ -1,33 +1,123 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi portafolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!--HEADER-->
     <nav class="navbar">
-        <div class="navbar-container">
-            <div class="navbar-logo">
-                <span>Mi portafolio</span>
-            </div>
-            <div class="navbar-menu">
-                <div class="navbar-links">
-                    <a href="">Inicio</a>
-                    <a href="">Sobre mi</a>
-                    <a href="">habilidades</a>
-                    <a href="">proyectos</a>
-                    <a href="">contactame</a>
-                    <button class="btn-primary">Descargar CV</button>
-                </div>
-            </div>
+      <div class="navbar-container">
+        <div class="navbar-logo">
+          <span>Mi portafolio</span>
         </div>
+        <div class="navbar-menu">
+          <div class="navbar-links">
+            <a class="navbar-link" href="">
+              Inicio
+            </a>
+            <a class="navbar-link" href="">
+              Habilidades
+            </a>
+            <a class="navbar-link" href="">
+              Proyectos
+            </a>
+          </div>
+        </div>
+      </div>
     </nav>
     <!--HERO-->
-    <section>
-        
+    <section class="hero">
+      <div class="hero-img">
+        <img
+          src="https://avatars.githubusercontent.com/u/162897302?s=400&u=70908e1ea11dc76d16dccd524deb83329a6815b9&v=4"
+          alt=""
+        />
+      </div>
+      <div class="hero-content">
+        <div class="badge-name">Ramerlin Castillo</div>
+        <div class="hero-title">
+          <h1>HI, I'M Ramerlin</h1>
+          <p>
+            Desarrollador web junior, apasionado por aprender cada día más.
+            Especializado en HTML, CSS y JavaScript. Construyo interfaces
+            modernas y responsivas con atención al detalle.
+          </p>
+        </div>
+        <button class="btn-primary">Ver proyectos</button>
+        <div class="habilidades">
+          <h2>Habilidades</h2>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M4 5h16v14H4z" />
+                <path d="M8 9h8M8 13h8" />
+              </svg>
+              HTML5
+            </li>
+            <li class="skill-item">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M6 20l6-16 6 16z" />
+                <path d="M9 14h6" />
+              </svg>
+              CSS3
+            </li>
+            <li class="skill-item">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M4 12h8" />
+                <path d="M10 6l6 6-6 6" />
+              </svg>
+              JavaScript
+            </li>
+            <li class="skill-item">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path
+                  d="M12 8.5c2.5-3.2 5.7-4.6 7.3-3.6 1.6 1-1.1 3.9-6.1 6.1 5 .9 8.1 2.9 7.7 4.6-.4 1.7-4.2 1.6-8.9-.4"
+                />
+                <path
+                  d="M12 15.5c-2.5 3.2-5.7 4.6-7.3 3.6-1.6-1 1.1-3.9 6.1-6.1-5-.9-8.1-2.9-7.7-4.6.4-1.7 4.2-1.6 8.9.4"
+                />
+                <circle cx="12" cy="12" r="1.2" />
+              </svg>
+              React
+            </li>
+            <li class="skill-item">
+              <svg
+                class="icon"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                focusable="false"
+              >
+                <path d="M6 8h8a4 4 0 0 1 4 4v4h-4v-4a1 1 0 0 0-1-1H6z" />
+                <circle cx="6" cy="8" r="2" />
+              </svg>
+              Git y GitHub
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
